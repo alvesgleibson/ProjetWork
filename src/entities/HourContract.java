@@ -1,6 +1,6 @@
 package entities;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class HourContract {
 
@@ -11,7 +11,6 @@ public class HourContract {
 	public HourContract() {
 
 	}
-
 	public HourContract(Date date, Double valuePerHour, Integer hours) {
 		this.date = date;
 		this.valuePerHour = valuePerHour;
